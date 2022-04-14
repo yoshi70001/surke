@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tema{
+    position: absolute;
+    top: 29.5%;
+}
+
+
+
+.navegacion_principal{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.navegacion_principal ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navegacion_principal ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 0.35rem;
+    text-decoration: none;
+    margin-right: 5rem;
+}
+.navegacion_principal ul li :hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+
+.container{
+    display: flex;
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+}
